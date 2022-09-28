@@ -1,7 +1,8 @@
 function add(){
 
-num1=firstno.value();
-num2=secondno.value();
-result.value()=num1+num2
+num1=document.getElementyId("firstno");
+num2=document.getElementbyId("secondno");
+var result=parseInt(num1)+parseInt(num2)
+document.getElementbyId("result")=result
 }
 
